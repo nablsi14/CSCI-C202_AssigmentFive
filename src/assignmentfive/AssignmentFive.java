@@ -1,3 +1,5 @@
+package assignmentfive;
+
 import java.util.*;
 import java.io.*;
 
@@ -16,7 +18,7 @@ public class AssignmentFive {
      * Initializes class and loads the dictionary.
      */
     public AssignmentFive () {
-        loadDictionary(new File("./random_dictionary.txt"));
+        loadDictionary(new File("random_dictionary.txt"));
     }
     /**
      * Fills the dictionary array with words from a given File.
@@ -97,6 +99,6 @@ public class AssignmentFive {
     }
     public static void main (String[] args) {
         AssignmentFive a = new AssignmentFive();
-        a.spellcheck(new File("./oliver.txt"));
+        a.spellcheck(new File("oliver.txt"));
     }
 }

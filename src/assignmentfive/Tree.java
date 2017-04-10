@@ -1,3 +1,5 @@
+package assignmentfive;
+
 public interface Tree<E extends Comparable<E>> {
 
   /** Return true if the element is in the tree */

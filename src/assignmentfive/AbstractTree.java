@@ -1,3 +1,4 @@
+package assignmentfive;
 public abstract class AbstractTree<E extends Comparable<E>>implements Tree<E> {
 
   /** Inorder traversal from the root*/
