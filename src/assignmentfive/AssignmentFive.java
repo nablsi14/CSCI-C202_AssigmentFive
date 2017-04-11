@@ -7,7 +7,7 @@ import java.io.*;
  * AssignmentFive.java
  * Purpose: Implements a spellchecker using BinarySearchTrees.
  * @author Nathaniel Sigafoos
- * @version 1.0 4/8/17
+ * @version 1.1 4/10/17
  */
 public class AssignmentFive {
     //The number of valid characters a word can start with.
